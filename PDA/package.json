@@ -8,8 +8,7 @@
   },
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch",
-    "start": "node src/cli.js"
+    "test:watch": "jest --watch"
   },
   "keywords": [
     "pda",

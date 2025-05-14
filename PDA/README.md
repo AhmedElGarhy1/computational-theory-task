@@ -1,9 +1,31 @@
-# PDA Simulator
+# Simple PDA for aⁿbⁿ Pattern
 
-A Node.js implementation of a Pushdown Automaton (PDA) simulator that can check if strings are accepted by context-free languages like balanced parentheses or aⁿbⁿ.
+A minimal JavaScript implementation of a pushdown automaton (PDA) that checks if strings follow the aⁿbⁿ pattern using any two distinct characters.
+
+## Features
+
+- ✅ Detects aⁿbⁿ pattern with any characters (e.g., `aabb`, `(())`, `hhjj`, `1122`)
+- 🚀 Zero dependencies - pure JavaScript
+- 🧪 Comprehensive test suite
+- 🔠 Works with letters, numbers, symbols, etc.
 
 ## Installation
 
+### Clone
+
 ```bash
-npm install pda-simulator
+git clone https://github.com/yourusername/simple-pda.git
+cd simple-pda
+```
+
+### install packages
+
+```bash
+npm install jest --save-dev
+```
+
+## Running
+
+```
+npm run test
 ```
