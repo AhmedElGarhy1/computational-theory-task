@@ -6,7 +6,7 @@
 - Department: CS
 - Section: 1
 
-## Task
+## Tasks
 
 task 1 & 2 in practical pdf for section 1 implemented by Javascript using NodeJS runtime task consists of 2 subtasks
 
