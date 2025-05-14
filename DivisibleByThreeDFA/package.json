@@ -1,0 +1,22 @@
+{
+  "name": "dfa-divisible-by-3",
+  "version": "1.0.0",
+  "description": "DFA that accepts binary strings where the number of 1s is divisible by 3",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "dfa",
+    "finite-automata",
+    "computer-science",
+    "formal-languages",
+    "computational theory"
+  ],
+  "author": "AhmedElGarhy",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "pda-simulator",
+  "version": "1.0.0",
+  "description": "A Pushdown Automaton simulator for context-free languages",
+  "main": "src/index.js",
+  "bin": {
+    "pda-simulator": "src/cli.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "start": "node src/cli.js"
+  },
+  "keywords": [
+    "pda",
+    "pushdown-automaton",
+    "context-free",
+    "formal-languages",
+    "computer-science"
+  ],
+  "author": "AhmedElGarhy1",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
